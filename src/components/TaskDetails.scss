@@ -1,0 +1,140 @@
+.overlay {
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // width: 100vw;
+    // height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    // pointer-events: none;  /* Makes overlay non-interactive */
+
+
+    .popup {
+        .titleandclose {
+            width: 90%;
+
+            h3 {
+                color: #10a37f;
+            }
+
+            .close-btn {
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                background: #dc3545;
+                color: white;
+                margin-top: 10px;
+
+            }
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+        }
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        ;
+        // padding-top: 300px;
+        background: white;
+        border-radius: 8px;
+        // box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        width: 600px;
+
+        // text-align: center;
+        // pointer-events: auto;  /* Allows interactions inside popup */
+        .taskdetails {
+
+            width: 90%;
+            border-radius: 8px;
+            border: solid 1px black;
+            padding: 10px;
+
+            p {
+                margin: 0;
+                // width: 100%;  /* Ensures it stays within the parent container */
+                // max-width: 90%; /* Prevents overflow */
+                word-wrap: break-word;
+                /* Breaks long words */
+                white-space: normal;
+                /* Ensures wrapping */
+                // text-align: justify; /* Optional: Justifies text */
+                line-height: 1.5;
+                /* Improves readability */
+                padding: 10px;
+                /* Maintains spacing */
+            }
+
+        }
+
+        .textarea {
+            width: 90%;
+            height: 300px;
+            padding: 10px;
+        }
+
+        .edit-btn {
+            width: 80px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            background: #10a37f;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .saveandcancel {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width:90%;
+            .close-btn {
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                background: #dc3545;
+                color: white;
+                // margin-top: 10px;
+
+            }
+            .save-btn {
+                width: 80px;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                background: #10a37f;
+                color: white;
+                // margin-top: 30px;
+            }
+            
+        }
+        .taskdetailsmessage{
+            color:#10a37f;
+        }
+    }
+
+
+
+
+
+
+
+}
